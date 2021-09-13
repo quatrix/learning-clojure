@@ -9,7 +9,7 @@
 
 #### The plugins I use:
 * `neoclide/coc.nvim` - lsp code completion, integration with linter, etc.
-* `Olical/conjure` - for REPL driven developments, let's you eval `forms` from the buffer
+* `Olical/conjure` - for REPL driven development, let's you eval `forms` from the buffer
 * `luochen1990/rainbow` - colors matching ()
 * `calebsmith/vim-lambdify` - replaces `defn` and `fn` with λ
 
