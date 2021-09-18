@@ -15,9 +15,10 @@
 
 ## Links
 
-* [Cheatsheet](https://clojure.org/api/cheatsheet)
+* [Cheatsheet](https://clojure.org/api/cheatsheet) - for reference
+* [Enterprise Clojure Training](https://enterpriseclojure.com/) - pretty much a clojure in 24 hours.
 * [Clojure by example](https://kimh.github.io/clojure-by-example/#about)
-* [Clojure Animated](https://markm208.github.io/cljbook/) _examples are written and exaplained incrementally_
+* [Clojure Animated](https://markm208.github.io/cljbook/) - examples are written and exaplained incrementally
 * [Koans](https://github.com/functional-koans/clojure-koans)
 * [Fork of 4clojure](https://4clojure.oxal.org/)
 * [Gist of onboarding links](https://gist.github.com/yogthos/be323be0361c589570a6da4ccc85f58f)
@@ -26,9 +27,10 @@
 
 
 ### Books
-* [Clojure for the brave and true](https://www.braveclojure.com/)
+* [Clojure For The Brave And True](https://www.braveclojure.com/) - covers all the basics, people usually start with this one.
 
 _Didn't read yet! Top Reddit recommendations_
+* [The Joy Of Clojure](https://www.manning.com/books/the-joy-of-clojure-second-edition) - more of a deep dive
 * [Getting Clojure](https://pragprog.com/titles/roclojure/getting-clojure/)
 * [Living Clojure](https://www.oreilly.com/library/view/living-clojure/9781491909270/)
 
@@ -39,10 +41,10 @@ _Didn't read yet! Top Reddit recommendations_
 
 
 ### Podcasts
-
 * [Design in clojure](https://clojuredesign.club/)
 
 
 ### Lectures
-* [Simple made easy - Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4)
+* [Simple made easy - Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4) - indoctrination
 * [Clojure, made simple - Rich Hickey](https://www.youtube.com/watch?v=VSdnJDO-xdg)
+* [Amperity lecture about how they learn and teach clojure internally](https://www.youtube.com/watch?v=QBsjYyg9bLE)
