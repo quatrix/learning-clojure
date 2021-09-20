@@ -27,7 +27,7 @@
 * [How lazy-seq works](https://stackoverflow.com/questions/44095400/how-to-understand-clojures-lazy-seq)
 
 
-### Books
+## Books
 * [Clojure For The Brave And True](https://www.braveclojure.com/) - covers all the basics, people usually start with this one.
 
 _Didn't read yet! Top Reddit recommendations_
@@ -35,17 +35,17 @@ _Didn't read yet! Top Reddit recommendations_
 * [Getting Clojure](https://pragprog.com/titles/roclojure/getting-clojure/)
 * [Living Clojure](https://www.oreilly.com/library/view/living-clojure/9781491909270/)
 
-### Blog Posts
+## Blog Posts
 * [Post about managing side effects](https://bsless.github.io/side-effects/)
 * [Mostly web related](https://yogthos.net/archives.html)
 * [FizzBuzz - life goals](https://aphyr.com/posts/353-rewriting-the-technical-interview)
 
 
-### Podcasts
+## Podcasts
 * [Design in clojure](https://clojuredesign.club/)
 
 
-### Lectures
+## Lectures
 * [Simple made easy - Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4) - indoctrination
 * [Clojure, made simple - Rich Hickey](https://www.youtube.com/watch?v=VSdnJDO-xdg)
 * [Amperity lecture about how they learn and teach clojure internally](https://www.youtube.com/watch?v=QBsjYyg9bLE)
