@@ -8,10 +8,11 @@
 * [Conjure demo](https://www.youtube.com/watch?v=lR2vbwuzrIM)
 
 #### The plugins I use:
-* `neoclide/coc.nvim` - lsp code completion, integration with linter, etc.
-* `Olical/conjure` - for REPL driven development, let's you eval `forms` from the buffer
-* `luochen1990/rainbow` - colors matching ()
-* `calebsmith/vim-lambdify` - replaces `defn` and `fn` with λ
+* `neoclide/coc.nvim` - LSP code completion, integration with linter, etc.
+* `Olical/conjure` - For REPL driven development, let's you eval `forms` from the buffer
+* `luochen1990/rainbow` - Colors matching ()
+* `calebsmith/vim-lambdify` - Replaces `defn` and `fn` with λ
+* `bhurlow/vim-parinfer` - Simpler list editing
 
 ## Links
 
