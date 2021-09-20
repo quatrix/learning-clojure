@@ -12,7 +12,7 @@
 * `Olical/conjure` - For REPL driven development, let's you eval `forms` from the buffer
 * `luochen1990/rainbow` - Colors matching ()
 * `calebsmith/vim-lambdify` - Replaces `defn` and `fn` with λ
-* `bhurlow/vim-parinfer` - Simpler list editing
+* `bhurlow/vim-parinfer` - Simpler LISP editing
 
 ## Links
 
