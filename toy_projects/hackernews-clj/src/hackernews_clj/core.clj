@@ -31,9 +31,10 @@
     to-str))
 
 (defn jwt-decode [token]
-  (try
-    (-> token str->jwt :claims)
-    (catch Exception e nil)))
+  (when (-> token str->jwt (verify jwt-secret))
+    (try
+      (-> token str->jwt :claims)
+      (catch Exception e nil))))
 
 (defn get-all-posts []
   (sql/query db-url ["select * from posts"]))
@@ -92,6 +93,7 @@
     (let [auth-header (get-in request [:headers "authorization"])]
       (if-let [decoded-auth-header (decode-auth-header auth-header)]
         (do
+          (println decoded-auth-header)
           (handler (assoc request :auth decoded-auth-header)))
         {:status 401
          :body {:status "must be authenticated to make this request"}}))))
@@ -141,21 +143,21 @@
                            multipart/multipart-middleware]}})))
                             
                            
+(comment 
+  (slurp
+    (:body
+      (app {:request-method :get
+            :uri "/posts"
+            :query-params {}})))
 
-(slurp
-  (:body
-    (app {:request-method :get
-          :uri "/posts"
-          :query-params {}})))
-
-(app {:request-method :post
-      :uri "/posts"
-      :parameters {:body {:content "hello world omg"}}})
+  (app {:request-method :post
+        :uri "/posts"
+        :parameters {:body {:content "hello world omg"}}}))
 
 
 
 (defn start []
-  (jetty/run-jetty #'app {:port 3000, :join? false})
+  (jetty/run-jetty #'app {:port 3001, :join? false})
   (println "server running in port 3000"))
 
 
