@@ -64,3 +64,6 @@ _Didn't read yet! Top Reddit recommendations_
 * [Simple made easy - Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4) - indoctrination
 * [Clojure, made simple - Rich Hickey](https://www.youtube.com/watch?v=VSdnJDO-xdg)
 * [Amperity lecture about how they learn and teach clojure internally](https://www.youtube.com/watch?v=QBsjYyg9bLE)
+
+## Testing??
+TBD - need to find some resources on testing culture / tools
