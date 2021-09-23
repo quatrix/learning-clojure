@@ -1,0 +1,26 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        metosin/reitit {:mvn/version "0.5.15"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.4"}
+        org.clojure/java.jdbc {:mvn/version "0.6.1"}
+        org.postgresql/postgresql {:mvn/version "9.4-1201-jdbc41"}
+        crypto-password {:mvn/version "0.3.0"}
+        clj-jwt {:mvn/version "0.1.1"}
+        cheshire {:mvn/version "5.10.0"}}
+ :aliases
+ {:run-m {:main-opts ["-m" "hackernews-clj.core"]}
+  :run-x {:ns-default hackernews-clj.core
+          :exec-fn greet
+          :exec-args {:name "Clojure"}}
+  :test {:extra-paths ["test"]
+         :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}
+                      io.github.cognitect-labs/test-runner
+                      {:git/url "https://github.com/cognitect-labs/test-runner"
+                       :sha "62ef1de18e076903374306060ac0e8a752e57c86"}}
+         :exec-fn cognitect.test-runner.api/test}
+  :uberjar {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.1.278"}}
+            :exec-fn hf.depstar/uberjar
+            :exec-args {:aot true
+                        :jar "core.jar"
+                        :main-class "hackernews-clj.core"
+                        :sync-pom true}}}}
