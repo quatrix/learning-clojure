@@ -35,8 +35,6 @@
     (-> token str->jwt :claims)
     (catch Exception e nil)))
 
-(jet-decode (jwt-encode {:hey "ho"}))
-
 (defn get-all-posts []
   (sql/query db-url ["select * from posts"]))
 
@@ -118,6 +116,8 @@
                          :middleware [authenticated?]
                          :handler add-post-handler}}]]
       
+      ;; FIXME: copy pasted list of middlewares
+      ;; i probably don't need all of them right now.
       {:exception pretty/exception
        :data {:coercion reitit.coercion.spec/coercion
               :muuntaja m/instance
