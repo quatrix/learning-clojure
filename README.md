@@ -1,5 +1,18 @@
 # Learning Clojure - YAY
 
+## Roadmap (WIP)
+
+What I've done so far that seems effective (I'm just starting out, will revisit this as I go):
+
+1. Setup your dev env, get used to repl-driven-development inside of the editor's buffer.
+1. Start reading `Clojure For The Brave And True` - type out and try all the examples, it seems like a good general introduction
+1. Start watching talks from clojure confs to get yourself immersed/indoctrinated in clojure, especially the Rich Hickey talks.
+1. Koans/4clojure is probably a good way to get to know the core library a bit better
+1. Finally start working on some small project like a simple game (`play-clj`) or a CRUD service (`reitit` seems pretty nice) 
+1. ...
+1. Profit!
+
+
 ## Development Environment
 
 ### NVIM (use nvim, it has better Clojure plugins)
@@ -44,6 +57,7 @@ _Didn't read yet! Top Reddit recommendations_
 
 ## Podcasts
 * [Design in clojure](https://clojuredesign.club/)
+* [The REPL](https://www.therepl.net/)
 
 
 ## Lectures
