@@ -4,9 +4,9 @@
 
 What I've done so far that seems effective (I'm just starting out, will revisit this as I go):
 
-1. Setup your dev env, get used to repl-driven-development inside of the editor's buffer.
+1. Setup your dev env, get used to REPL-driven-development inside of the editor's buffer.
 1. Start reading `Clojure For The Brave And True` - type out and try all the examples, it seems like a good general introduction
-1. Start watching talks from clojure confs to get yourself immersed/indoctrinated in clojure, especially the Rich Hickey talks.
+1. Start watching talks from Clojure confs to get yourself immersed/indoctrinated in Clojure, especially the Rich Hickey talks.
 1. Koans/4clojure is probably a good way to get to know the core library a bit better
 1. Finally start working on some small project like a simple game (`play-clj`) or a CRUD service (`reitit` seems pretty nice) 
 1. ...
@@ -30,9 +30,9 @@ What I've done so far that seems effective (I'm just starting out, will revisit 
 ## Links
 
 * [Cheatsheet](https://clojure.org/api/cheatsheet) - for reference
-* [Enterprise Clojure Training](https://enterpriseclojure.com/) - pretty much a clojure in 24 hours.
+* [Enterprise Clojure Training](https://enterpriseclojure.com/) - pretty much a Clojure in 24 hours.
 * [Clojure by example](https://kimh.github.io/clojure-by-example/#about)
-* [Clojure Animated](https://markm208.github.io/cljbook/) - examples are written and exaplained incrementally
+* [Clojure Animated](https://markm208.github.io/cljbook/) - examples are written and explained incrementally
 * [Koans](https://github.com/functional-koans/clojure-koans)
 * [Fork of 4clojure](https://4clojure.oxal.org/)
 * [Gist of onboarding links](https://gist.github.com/yogthos/be323be0361c589570a6da4ccc85f58f)
