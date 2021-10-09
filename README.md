@@ -39,7 +39,7 @@ What I've done so far that seems effective (I'm just starting out, will revisit 
 * [Alternative getting started links](https://www.reddit.com/r/Clojure/comments/fpp9r8/how_hard_is_it_to_learn_clojure/flo1lyi/?utm_source=reddit&utm_medium=web2x&context=3)
 * [How lazy-seq works](https://stackoverflow.com/questions/44095400/how-to-understand-clojures-lazy-seq)
 * [Clojure Tool Box](https://www.clojure-toolbox.com/) - seems like a curated package index
-
+* [Threading with style](https://stuartsierra.com/2018/07/06/threading-with-style) - how to use threading macros 
 
 ## Books
 * [Clojure For The Brave And True](https://www.braveclojure.com/) - covers all the basics, people usually start with this one.
