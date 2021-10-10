@@ -64,6 +64,7 @@ _Didn't read yet! Top Reddit recommendations_
 * [Simple made easy - Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4) - indoctrination
 * [Clojure, made simple - Rich Hickey](https://www.youtube.com/watch?v=VSdnJDO-xdg)
 * [Amperity lecture about how they learn and teach clojure internally](https://www.youtube.com/watch?v=QBsjYyg9bLE)
+* [Implementing core functions](https://www.youtube.com/watch?v=csH4ZEtq2Tg)
 * [Every clojure talk ever](https://www.youtube.com/watch?v=jlPaby7suOc) - LOL
 
 ## Testing??
