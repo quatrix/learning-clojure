@@ -40,6 +40,8 @@ What I've done so far that seems effective (I'm just starting out, will revisit 
 * [How lazy-seq works](https://stackoverflow.com/questions/44095400/how-to-understand-clojures-lazy-seq)
 * [Clojure Tool Box](https://www.clojure-toolbox.com/) - seems like a curated package index
 * [Threading with style](https://stuartsierra.com/2018/07/06/threading-with-style) - how to use threading macros 
+* [Code Smells](https://bsless.github.io/code-smells/)
+
 
 ## Books
 * [Clojure For The Brave And True](https://www.braveclojure.com/) - covers all the basics, people usually start with this one.
